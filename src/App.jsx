@@ -1,11 +1,14 @@
+import { BrowserRouter } from "react-router-dom";
+import MainRouter from "./pages/router/MainRouter";
 
 function App() {
-
   return (
-      <div>
-        <p className='text-red-500'>Hello tailwind</p>
-   </div>
-  )
+    <div>
+      <BrowserRouter>
+        <MainRouter />
+      </BrowserRouter>
+    </div>
+  );
 }
 
-export default App
+export default App;
