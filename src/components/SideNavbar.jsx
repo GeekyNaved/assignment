@@ -3,7 +3,7 @@ import {FaHome, FaPlus} from "react-icons/fa";
 import {MdCategory, MdDonutSmall} from "react-icons/md";
 import {IoLogOut} from "react-icons/io5";
 import {IoMdSettings} from "react-icons/io";
-import { TbFlower } from "react-icons/tb";
+import {TbFlower} from "react-icons/tb";
 
 const SideNavbar = () => {
   const logout = () => {
@@ -11,7 +11,7 @@ const SideNavbar = () => {
   };
   return (
     // <div className="fixed top-0 flex flex-col h-full bg-orange-400 ">
-    <div className="bg-slate-900 text-slate-50 flex flex-col w-15">
+    <div className="hidden bg-slate-900 text-slate-50 md:flex md:flex-col w-15">
       <div className="flex-1">
         <div className="py-5 px-3 flex items-center justify-center text-4xl font-medium text-white">
           <TbFlower />
