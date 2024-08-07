@@ -7,7 +7,7 @@ import SearchInputField from "./SearchInputField";
 const TopNavbar = () => {
   return (
     <div className="bg-slate-900 text-slate-50">
-      <div className="flex justify-between items-center h-20 max-w-screen-xl mx-auto px-2 md:p-0">
+      <div className="flex justify-between items-center h-20 px-2 md:px-4">
         <SearchInputField />
         <div className="flex gap-6 cursor-pointer">
           <NavLink
