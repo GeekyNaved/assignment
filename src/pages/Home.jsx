@@ -1,4 +1,5 @@
 import BarChart from "../components/BarChart";
+import CustTable from "../components/CustTable";
 import Feedback from "../components/Feedback";
 import NetProfitCard from "../components/NetProfitCard";
 import OptionsCard from "../components/OptionsCard";
@@ -17,6 +18,7 @@ const Home = () => {
             <SmallCard profit={false} />
           </div>
           <BarChart />
+          <CustTable />
         </section>
         <section className="md:col-span-1 col-span-2 flex flex-col gap-5">
           <NetProfitCard />
